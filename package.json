@@ -1,0 +1,32 @@
+{
+  "name": "yimiyx-website",
+  "version": "1.0.0",
+  "description": "壹米优鲜官网",
+  "author": "糖醋里脊叉烧包<syazhao@foxmail.com>;",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production PORT=8000 node server/index.js",
+    "generate": "nuxt generate",
+    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "koa": "^2.5.3",
+    "nuxt": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-prettier": "3.0.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "nodemon": "^1.18.4",
+    "prettier": "1.14.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}

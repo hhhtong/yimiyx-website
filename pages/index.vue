@@ -1,0 +1,245 @@
+<template>
+  <section class="wrap">
+    <div class="bg-fixed">
+      <img src="../assets/image/bg-a.jpg">
+    </div>
+    <div class="content">
+      <div class="top-content">
+        <div class="logoWrap">
+          <div class="logo">
+            <img src="../assets/image/logo-04.png">
+          </div>
+        </div>
+        <div class="main-desc">
+          <h1>新鲜、便捷、实惠</h1>
+          <div class="jump-text">
+            <div>
+              <p>『壹米优鲜』满足你对生鲜的所有想象</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选择理由 -->
+      <section class="info">
+        <p class="info-title">为什么选择“壹米优鲜”？</p>
+        <p class="info-sub-title">客户们赞扬，新鲜便捷实惠</p>
+        <ul class="info-features">
+          <li class="info-feature">
+            <div class="info-feature-up">
+              <span class="info-feature-up-span info-feature-up-span-1"/>
+            </div>
+            <div class="info-feature-down">
+              <p class="info-feature-down-title">新鲜</p>
+              <p class="info-feature-down-content">我们在牛城从事生鲜配送多年
+                <br> 菜品新鲜美味
+                <br> 专注所以专业
+              </p>
+            </div>
+          </li>
+          <li class="info-feature">
+            <div class="info-feature-up">
+              <span class="info-feature-up-span info-feature-up-span-2"/>
+            </div>
+            <div class="info-feature-down">
+              <p class="info-feature-down-title">便捷</p>
+              <p class="info-feature-down-content">一键下单
+                <br> 准时到达
+                <br> 深得客户赞赏
+              </p>
+            </div>
+          </li>
+          <li class="info-feature">
+            <div class="info-feature-up">
+              <span class="info-feature-up-span info-feature-up-span-3"/>
+            </div>
+            <div class="info-feature-down">
+              <p class="info-feature-down-title">实惠</p>
+              <p class="info-feature-down-content">将优惠让于客户
+                <br> 将实在让于客户
+                <br> 严格遵行内心的道德
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- 壹米优鲜案例 -->
+      <div class="success-case">
+        <div class="center-wrap">
+          <div class="item-title">
+            <h2>壹米优鲜案例<p>Success Case</p></h2>
+          </div>
+          <div class="item-content">
+            <div class="item-cell">
+              <div class="img-wrap">
+                <img
+                  :class="{ img_hover: isBig1 }"
+                  src="../assets/image/s_01.jpg"
+                  @mouseover="isBig1 = true"
+                  @mouseout="isBig1 = false">
+              </div>
+              <h4>新鲜果蔬</h4>
+              <p>Fresh fruit and vegetable</p>
+            </div>
+            <div class="item-cell">
+              <div class="img-wrap">
+                <img
+                  :class="{ img_hover: isBig2 }"
+                  src="../assets/image/s_02.jpg"
+                  @mouseover="isBig2 = true"
+                  @mouseout="isBig2 = false">
+              </div>
+              <h4>美味海鲜</h4>
+              <p>Delicious seafood</p>
+            </div>
+            <div class="item-cell">
+              <div class="img-wrap">
+                <img
+                  :class="{ img_hover: isBig3 }"
+                  src="../assets/image/s_03.jpg"
+                  @mouseover="isBig3 = true"
+                  @mouseout="isBig3 = false">
+              </div>
+              <h4>肉类</h4>
+              <p>meat</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 关于我们 -->
+      <div class="about-us">
+        <div class="about-us-wrap">
+          <div class="about-us-left">
+            <h2>关于我们
+              <p>About us</p>
+            </h2>
+            <div class="decription">
+              <h3>河北浩海鸿通电子商务有限公司</h3>
+              <p>河北浩海鸿通电子商务有限公司是专业生鲜配送门户网站，我们在生鲜食材界深耕多年，致力于将壹米优鲜打造成河北省乃至京津冀著名生鲜配送电子商务品牌，为生鲜食材行业发展提供动力！作为生鲜食材行业的积极倡导者和努力实践者，本网以用户为中心，致力于生鲜食材专业便捷称心化推进；为新老客户的新鲜食材需求提供全方位的解决方案。</p>
+              <!-- <button class='more-btn'>MORE</button> -->
+            </div>
+          </div>
+          <div class="about-us-right">
+            <img src="../assets/image/s_04.jpg">
+          </div>
+          <!-- <div class="modal">
+            <ul class="content_list">
+              <li>
+                <div>
+                  <p>
+                    <span class='modal-big-font'>1,992</span>
+                    <span class='modal-tip'>年</span>
+                  </p>
+                  <p class='modal-center-text'>成立嘉永</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>
+                    <span class='modal-big-font'>58</span>
+                    <span class='modal-tip'>+</span>
+                  </p>
+                  <p>年均案列</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>
+                    <span class='modal-big-font'>50</span>
+                    <span class='modal-tip'>+</span>
+                  </p>
+                  <p>年均热情反馈</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>
+                    <span class='modal-big-font'>40</span>
+                    <span class='modal-tip'>+</span>
+                  </p>
+                  <p>装修荣誉</p>
+                </div>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+      <!-- 成就历程 -->
+      <div class="achieve">
+        <!-- <div class="achieve-wrap">
+          <div class="achieve-item">
+            <h3>1998</h3>
+            <p>荣入1998上海装修企业</p>
+            <p>综合实力150强排名第16位</p>
+          </div>
+          <div class="achieve-item">
+            <h3>2000</h3>
+            <p>荣入千禧年上海装修企业</p>
+            <p>进入综合实力100强</p>
+          </div>
+          <div class="achieve-item">
+            <h3>2006</h3>
+            <p>荣入2006年度中国装修公司</p>
+            <p>综合实力100强排名第22位</p>
+          </div>
+          <div class="achieve-item">
+            <h3>2016</h3>
+            <p>荣入2016年度上海装修企业</p>
+            <p>综合实力100强</p>
+          </div>
+        </div> -->
+      </div>
+      <!-- 版权区 -->
+      <div class="footer-copyright">
+        <div class="footer-wrap">
+          <div class="left-title">
+            <h3>联系我们</h3>
+            <p>Contact US</p>
+          </div>
+          <div class="right-title">
+            <h4>河北浩海鸿通电子商务有限公司</h4>
+            <div class="detail-info">
+              <div class="left-detail">
+                <div class="detail-item">
+                  <span>地址:</span>
+                  <span>河北省邢台经济开发区中兴东大街1699号创智园</span>
+                </div>
+                <div class="detail-item">
+                  <span>电话:</span>
+                  <span>18503223839</span>
+                </div>
+                <div class="detail-item">
+                  <span>传真:</span>
+                  <span>18503223839</span>
+                </div>
+                <div class="detail-item">
+                  <span>邮编:</span>
+                  <span>054000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="real-copy">
+            <p>COPYRIGHT (©) 2018 河北浩海鸿通电子商务有限公司</p>
+            <p>YiMiYouXian radex HaoHaiHongTong Ecommerce Ltd</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      isBig1: false,
+      isBig2: false,
+      isBig3: false
+    }
+  }
+}
+</script>
+
+<style lang="stylus">
+@import '@/assets/css/main.css'
+</style>
