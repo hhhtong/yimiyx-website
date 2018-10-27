@@ -63,6 +63,10 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    publicPath:
+      process.env.NODE_ENV === 'production'
+        ? '//cdn.haohaihongtong.com/website/'
+        : '/_nuxt/'
   }
 }

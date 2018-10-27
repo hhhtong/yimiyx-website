@@ -11,7 +11,7 @@
           </div>
         </div>
         <div class="main-desc">
-          <h1>新鲜、便捷、实惠</h1>
+          <h1>壹步之遥，鲜美生活</h1>
           <div class="jump-text">
             <div>
               <p>『壹米优鲜』满足你对生鲜的所有想象</p>
@@ -30,9 +30,8 @@
             </div>
             <div class="info-feature-down">
               <p class="info-feature-down-title">新鲜</p>
-              <p class="info-feature-down-content">我们在牛城从事生鲜配送多年
-                <br> 菜品新鲜美味
-                <br> 专注所以专业
+              <p class="info-feature-down-content">
+                源头直采模式<br>菜品新鲜美味<br>专注所以专业
               </p>
             </div>
           </li>
@@ -42,9 +41,8 @@
             </div>
             <div class="info-feature-down">
               <p class="info-feature-down-title">便捷</p>
-              <p class="info-feature-down-content">一键下单
-                <br> 准时到达
-                <br> 深得客户赞赏
+              <p class="info-feature-down-content">
+                一键下单<br>准时到达<br>方便快捷
               </p>
             </div>
           </li>
@@ -53,10 +51,9 @@
               <span class="info-feature-up-span info-feature-up-span-3"/>
             </div>
             <div class="info-feature-down">
-              <p class="info-feature-down-title">实惠</p>
-              <p class="info-feature-down-content">将优惠让于客户
-                <br> 将实在让于客户
-                <br> 严格遵行内心的道德
+              <p class="info-feature-down-title">愿景</p>
+              <p class="info-feature-down-content">
+                让天下的餐厅没有难做的生意<br>让老百姓生活更简单<br>让13亿中国人吃上放心菜
               </p>
             </div>
           </li>
@@ -66,7 +63,7 @@
       <div class="success-case">
         <div class="center-wrap">
           <div class="item-title">
-            <h2>壹米优鲜案例<p>Success Case</p></h2>
+            <h2>产品展示<p>Success Case</p></h2>
           </div>
           <div class="item-content">
             <div class="item-cell">
@@ -113,9 +110,12 @@
               <p>About us</p>
             </h2>
             <div class="decription">
-              <h3>河北浩海鸿通电子商务有限公司</h3>
-              <p>河北浩海鸿通电子商务有限公司是专业生鲜配送门户网站，我们在生鲜食材界深耕多年，致力于将壹米优鲜打造成河北省乃至京津冀著名生鲜配送电子商务品牌，为生鲜食材行业发展提供动力！作为生鲜食材行业的积极倡导者和努力实践者，本网以用户为中心，致力于生鲜食材专业便捷称心化推进；为新老客户的新鲜食材需求提供全方位的解决方案。</p>
-              <!-- <button class='more-btn'>MORE</button> -->
+              <h3>壹米优鲜</h3>
+              <p>壹米优鲜（浩海鸿通河北电子商务有限公司）于2018年成立，一直致力于通过互联网的方式来改变农业、农村和农民。
+              壹米优鲜独有的“F2B模式”是通过自建仓储、物流、配送，创新升级农产品供应链，砍掉中间环节，一端链接田间地头，一端链接城市，通过自营和合作伙伴，实现农产品从地头到餐桌高速的流通，让利两端，为决胜全面建成小康社会贡献力量。
+              同时，利用大数据系统，准确将市场需求反馈给农民，一方面避免了货不对市，另一方面通过解决销路给予了农民安心的保障。专注为全国近千万家餐厅和蔬菜店铺，提供一站式、全品类、全程无忧的农产品采购服务，让天下的餐厅没有难做的生意。此外，壹米优鲜利用自身的渠道优势，要求源头端建立生产标准，保证上行农产品的质量安全，真正实现生产有标准、销路有保障的良性循环。
+              通过全面布局，壹米优鲜预计明年覆盖河北省大多数城市。</p>
+              <!-- <button class="more-btn">MORE</button> -->
             </div>
           </div>
           <div class="about-us-right">
@@ -196,31 +196,32 @@
             <p>Contact US</p>
           </div>
           <div class="right-title">
-            <h4>河北浩海鸿通电子商务有限公司</h4>
+            <h4>壹米优鲜™ 浩海鸿通河北电子商务有限公司</h4>
             <div class="detail-info">
               <div class="left-detail">
                 <div class="detail-item">
                   <span>地址:</span>
-                  <span>河北省邢台经济开发区中兴东大街1699号创智园</span>
+                  <span>河北省邢台经济开发区中兴东大街1699号创智园333室</span>
                 </div>
                 <div class="detail-item">
                   <span>电话:</span>
                   <span>18503223839</span>
                 </div>
                 <div class="detail-item">
-                  <span>传真:</span>
-                  <span>18503223839</span>
-                </div>
-                <div class="detail-item">
-                  <span>邮编:</span>
-                  <span>054000</span>
+                  <span>邮箱:</span>
+                  <span>haohaihongtong@haohaihongtong.com</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="real-copy">
-            <p>COPYRIGHT (©) 2018 河北浩海鸿通电子商务有限公司</p>
-            <p>YiMiYouXian radex HaoHaiHongTong Ecommerce Ltd</p>
+            <p>COPYRIGHT (©) 2018 浩海鸿通河北电子商务有限公司</p>
+            <p>
+              YiMiYouXian Radex HaoHaiHongTong Ecommerce Ltd&nbsp;&nbsp;
+              <a
+                target="_blank"
+                href="http://www.miibeian.gov.cn">冀ICP备18018598号-1</a>
+            </p>
           </div>
         </div>
       </div>
